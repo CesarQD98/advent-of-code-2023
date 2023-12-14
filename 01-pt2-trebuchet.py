@@ -23,7 +23,7 @@ digits = {
 output = []
 sum = 0
 
-with open("/data/01-puzzle-input.txt", "r") as file:
+with open("./data/01-puzzle-input.txt", "r") as file:
     for line in file:
         numbers = []
         for key, value in digits.items():
